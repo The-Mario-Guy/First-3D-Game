@@ -7,7 +7,7 @@ public class FPSLimit : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Application.targetFrameRate = 45;
+        Application.targetFrameRate = 30;
     }
 
     // Update is called once per frame

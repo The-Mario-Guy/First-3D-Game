@@ -1,0 +1,74 @@
+# Material file for dsesertdash.obj
+
+newmtl material_1
+	Ns 0
+	d 1
+	illum 2
+	Kd 1.0 1.0 1.0
+	Ks 0.0 0.0 0.0
+	Ka 0.2 0.2 0.2
+	map_Kd 2E8A764E_c.png
+
+newmtl material_2
+	Ns 0
+	d 1
+	illum 2
+	Kd 1.0 1.0 1.0
+	Ks 0.0 0.0 0.0
+	Ka 0.2 0.2 0.2
+	map_Kd 4AFAB186_c.png
+
+newmtl material_3
+	Ns 0
+	d 1
+	illum 2
+	Kd 1.0 1.0 1.0
+	Ks 0.0 0.0 0.0
+	Ka 0.2 0.2 0.2
+	map_Kd 61D22973_c.png
+
+newmtl material_4
+	Ns 0
+	d 1
+	illum 2
+	Kd 1.0 1.0 1.0
+	Ks 0.0 0.0 0.0
+	Ka 0.2 0.2 0.2
+	map_Kd 4BCAD80C_c.png
+
+newmtl material_17
+	Ns 0
+	d 1
+	illum 2
+	Kd 1.0 1.0 1.0
+	Ks 0.0 0.0 0.0
+	Ka 0.2 0.2 0.2
+	map_Kd C555659_c.png
+
+newmtl material_20
+	Ns 0
+	d 1
+	illum 2
+	Kd 1.0 1.0 1.0
+	Ks 0.0 0.0 0.0
+	Ka 0.2 0.2 0.2
+	map_Kd F05D5_c.png
+
+newmtl material_21
+	Ns 0
+	d 1
+	illum 2
+	Kd 1.0 1.0 1.0
+	Ks 1.0 1.0 1.0
+	Ka 0.2 0.2 0.2
+	map_Kd 1DFB2F0C_c.png
+
+newmtl material_22
+	Ns 0
+	d 1
+	illum 2
+	Kd 1.0 1.0 1.0
+	Ks 1.0 1.0 1.0
+	Ka 0.2 0.2 0.2
+	map_Kd 7819830C_c.png
+

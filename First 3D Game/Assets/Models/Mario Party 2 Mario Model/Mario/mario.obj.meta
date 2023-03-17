@@ -3,7 +3,32 @@ guid: bc56c39ed28b3fc48bf5a01acd85a6f6
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mario_back
+    second: {fileID: 2100000, guid: 28215b5ba769164439d461ae17e867d5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mario_face
+    second: {fileID: 2100000, guid: f0910faed07826c45bedb444d2f0786e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mario_hair
+    second: {fileID: 2100000, guid: 26be7e99121ce90479dcf2281a19f6b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mario_hat
+    second: {fileID: 2100000, guid: f144e212d2df520448ae0256531bd3c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mario_overalls
+    second: {fileID: 2100000, guid: 505ae9f5c553c0a479bea6dd3489e60e, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
