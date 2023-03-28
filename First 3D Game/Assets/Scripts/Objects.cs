@@ -4,12 +4,11 @@ using UnityEngine;
 
 public class Objects : MonoBehaviour
 {
-    // Start is called before the first frame update
-    private void OnCollisionEnter(Collision other) 
-    {
+    private void OnCollisionEnter(Collision other) {
         if(other.gameObject.CompareTag("Player"))
         {
-         gameObject.tag = "hit";   
+            gameObject.tag = "Hit";
+            //GetComponent<MeshRenderer>().material.color = Color.red;
         }
     }
 }

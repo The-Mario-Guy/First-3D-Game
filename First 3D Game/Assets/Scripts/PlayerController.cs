@@ -9,6 +9,8 @@ public class PlayerController : MonoBehaviour
      
       private bool canJump;
     private Rigidbody selfRigidbody;
+     public GameObject player;
+    public float sensitivity;
 
     // Start is called before the first frame update
     void Start()
@@ -19,10 +21,18 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-     if(canJump){
+     if(canJump)
+        {
          canJump = false;
          selfRigidbody.AddForce(0, forceConst, 0, ForceMode.Impulse);
-     }
+        }
+
+         {
+         float rotateHorizontal = Input.GetAxis ("Mouse X");
+         float rotateVertical = Input.GetAxis ("Mouse Y");
+         transform.RotateAround (player.transform.position, -Vector3.up, rotateHorizontal * sensitivity);
+        transform.RotateAround (Vector3.zero, transform.right, rotateVertical * sensitivity);
+        }
     }
     void Update()
     {
@@ -38,4 +48,5 @@ public class PlayerController : MonoBehaviour
 
         transform.Translate(xValue, 0f, zValue);
     }
+
 }

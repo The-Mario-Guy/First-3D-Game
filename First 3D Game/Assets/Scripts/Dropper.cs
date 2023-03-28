@@ -6,7 +6,9 @@ public class Dropper : MonoBehaviour
 {
     private MeshRenderer _renderer;
     private Rigidbody _rigidbody;
+
     [SerializeField] private float _timeToWait = 3f;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -19,7 +21,7 @@ public class Dropper : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(_timeToWait > Time.time)
+        if(Time.time > _timeToWait)
         {
             _renderer.enabled = true;
             _rigidbody.useGravity = true;
