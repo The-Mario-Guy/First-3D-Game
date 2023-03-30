@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
 
 public class PlayerController : MonoBehaviour
 {
@@ -11,6 +13,8 @@ public class PlayerController : MonoBehaviour
     private Rigidbody selfRigidbody;
      public GameObject player;
     public float sensitivity;
+    float star = 0;
+    public TextMeshProUGUI StarText;
 
     // Start is called before the first frame update
     void Start()
@@ -47,6 +51,14 @@ public class PlayerController : MonoBehaviour
         float zValue = Input.GetAxis("Vertical") * _moveSpeed*Time.deltaTime;
 
         transform.Translate(xValue, 0f, zValue);
+    }
+     private void OnCollisionEnter(Collision other)
+    {
+        if(other.gameObject.tag != "Star")
+        {
+            star++;
+            StarText.text = star.ToString("0");
+        }    
     }
 
 }

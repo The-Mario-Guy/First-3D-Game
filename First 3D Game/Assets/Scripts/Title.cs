@@ -20,6 +20,11 @@ public class Title : MonoBehaviour
 
     public void startPressed()
     {
-        SceneManager.LoadScene(1);
+        if(Input.GetKeyDown(KeyCode.Z))
+        {
+            Debug.Log("Wahh");
+           SceneManager.LoadScene(1); 
+        }
+        
     }
 }
