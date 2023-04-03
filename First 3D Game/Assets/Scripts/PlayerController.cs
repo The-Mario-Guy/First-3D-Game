@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -58,7 +59,10 @@ public class PlayerController : MonoBehaviour
         {
             star++;
             StarText.text = star.ToString("0");
-        }    
+        }  
+        if(other.gameObject.CompareTag("End"))
+        {
+            SceneManager.LoadScene(4);
+        }  
     }
-
 }

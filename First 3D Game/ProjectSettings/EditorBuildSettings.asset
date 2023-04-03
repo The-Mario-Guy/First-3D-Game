@@ -9,6 +9,15 @@ EditorBuildSettings:
     path: Assets/Scenes/Title.unity
     guid: a6bb2781172676843ab69850f72e0977
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
+    path: Assets/Scenes/Game.unity
+    guid: 21d9921855adf334c92daacf38f541e2
+  - enabled: 1
+    path: Assets/Scenes/Big Time sad.unity
+    guid: c04da9e6b42e827449cba7ea742176ef
+  - enabled: 1
+    path: Assets/Scenes/Died of death.unity
+    guid: d18d038fe042c7c40b3cb7f245424a88
+  - enabled: 1
+    path: Assets/Scenes/Winner.unity
+    guid: 4b9af167e77233340813da8e697304b3
   m_configObjects: {}

@@ -1,15 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using TMPro;
 using UnityEngine.SceneManagement;
-public class Title : MonoBehaviour
+
+public class End : MonoBehaviour
 {
     // Start is called before the first frame update
-    private MeshRenderer _renderer;
     void Start()
     {
-        _renderer = GetComponent<MeshRenderer>();
+        
     }
 
     // Update is called once per frame
@@ -17,12 +16,12 @@ public class Title : MonoBehaviour
     {
         
     }
-
-    public void startPressed()
+    private void OnCollisionEnter(Collision other) 
     {
+        if(other.gameObject.CompareTag("Player"))
         {
-           SceneManager.LoadScene(1); 
+            SceneManager.LoadScene(4);
         }
-        
     }
+
 }
