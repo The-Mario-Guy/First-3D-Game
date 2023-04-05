@@ -1,0 +1,128 @@
+newmtl Beam
+Ka 0 0 0
+Kd 0.7843137 0.7843137 0.7843137
+d 1
+Tr 1
+map_Ka Beam.png
+map_Kd Beam.png
+map_d Beam.png
+newmtl Brick_R
+Ka 0 0 0
+Kd 0.7843137 0.7843137 0.7843137
+d 1
+Tr 1
+map_Ka Brick_R.png
+map_Kd Brick_R.png
+map_d Brick_R.png
+newmtl Brick_Y
+Ka 0 0 0
+Kd 0.7843137 0.7843137 0.7843137
+d 1
+Tr 1
+map_Ka Brick_Y.png
+map_Kd Brick_Y.png
+map_d Brick_Y.png
+newmtl Fresco
+Ka 0 0 0
+Kd 0.7843137 0.7843137 0.7843137
+d 1
+Tr 1
+map_Ka Fresco.png
+map_Kd Fresco.png
+map_d Fresco.png
+newmtl Iron_railing01
+Ka 0 0 0
+Kd 0.7843137 0.7843137 0.7843137
+d 1
+Tr 1
+map_Ka Iron_railing01.png
+map_Kd Iron_railing01.png
+map_d Iron_railing01.png
+newmtl Iron_railing02
+Ka 0 0 0
+Kd 0.7843137 0.7843137 0.7843137
+d 1
+Tr 1
+map_Ka Iron_railing02.png
+map_Kd Iron_railing02.png
+map_d Iron_railing02.png
+newmtl Right
+Ka 0 0 0
+Kd 0.7843137 0.7843137 0.7843137
+d 1
+Tr 1
+map_Ka Right.png
+map_Kd Right.png
+map_d Right.png
+newmtl Roof
+Ka 0 0 0
+Kd 0.7843137 0.7843137 0.7843137
+d 1
+Tr 1
+map_Ka Roof.png
+map_Kd Roof.png
+map_d Roof.png
+newmtl Shine
+Ka 0 0 0
+Kd 0.7843137 0.7843137 0.7843137
+d 1
+Tr 1
+map_Ka Shine.png
+map_Kd Shine.png
+map_d Shine.png
+newmtl StonePave01
+Ka 0 0 0
+Kd 0.7843137 0.7843137 0.7843137
+d 1
+Tr 1
+map_Ka StonePave01.png
+map_Kd StonePave01.png
+map_d StonePave01.png
+newmtl StonePave02
+Ka 0 0 0
+Kd 0.7843137 0.7843137 0.7843137
+d 1
+Tr 1
+map_Ka StonePave02.png
+map_Kd StonePave02.png
+map_d StonePave02.png
+newmtl WALL2
+Ka 0 0 0
+Kd 0.7843137 0.7843137 0.7843137
+d 1
+Tr 1
+map_Ka WALL2.png
+map_Kd WALL2.png
+map_d WALL2.png
+newmtl WAll1
+Ka 0 0 0
+Kd 0.7843137 0.7843137 0.7843137
+d 1
+Tr 1
+map_Ka WAll1.png
+map_Kd WAll1.png
+map_d WAll1.png
+newmtl lambert45
+Ka 0 0 0
+Kd 0.7843137 0.7843137 0.7843137
+d 1
+Tr 1
+map_Ka lambert45.png
+map_Kd lambert45.png
+map_d lambert45.png
+newmtl window
+Ka 0 0 0
+Kd 0.7843137 0.7843137 0.7843137
+d 1
+Tr 1
+map_Ka window.png
+map_Kd window.png
+map_d window.png
+newmtl window2
+Ka 0 0 0
+Kd 0.7843137 0.7843137 0.7843137
+d 1
+Tr 1
+map_Ka window2.png
+map_Kd window2.png
+map_d window2.png

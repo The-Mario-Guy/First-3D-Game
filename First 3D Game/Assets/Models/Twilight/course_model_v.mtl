@@ -1,0 +1,8 @@
+newmtl VR_sky
+Ka 0 0 0
+Kd 0.7843137 0.7843137 0.7843137
+d 1
+Tr 1
+map_Ka VR_sky.png
+map_Kd VR_sky.png
+map_d VR_sky.png
