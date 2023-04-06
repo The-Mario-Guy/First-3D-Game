@@ -8,6 +8,7 @@ TagManager:
   - Hit
   - Star
   - End
+  - Grass
   layers:
   - Default
   - TransparentFX

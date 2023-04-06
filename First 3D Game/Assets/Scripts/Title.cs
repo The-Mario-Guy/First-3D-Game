@@ -25,4 +25,11 @@ public class Title : MonoBehaviour
         }
         
     }
+    public void retryGameTwo()
+    {
+        {
+           SceneManager.LoadScene(5); 
+        }
+        
+    }
 }
