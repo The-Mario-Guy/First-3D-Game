@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1bc6f5456f14af94a9ce2f0ed285867f
+guid: e10e7eb634e513e4d95dcd90f446df81
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
@@ -7,18 +7,18 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Beige
-    second: {fileID: 2100000, guid: 85f1da195b8e70344b4e362b6e37b0cb, type: 2}
+      name: kart_body
+    second: {fileID: 2100000, guid: 7684f193999ea8f4cac5171f902758ef, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Black
-    second: {fileID: 2100000, guid: 699b58af06ebd4d42a2c5a38c1bd6020, type: 2}
+      name: kart_emblem
+    second: {fileID: 2100000, guid: cf6957b9a2391c44baa38c6a1abc31eb, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Red
-    second: {fileID: 2100000, guid: b5f9d683196c85f43992cd3e6e2a6aac, type: 2}
+      name: kart_tire
+    second: {fileID: 2100000, guid: 223a3442e228b8c4f9497b46f36ec7b5, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

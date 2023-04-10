@@ -3,7 +3,12 @@ guid: a924cf73646af0a448afca52d3e2693e
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kart_emblem
+    second: {fileID: 2100000, guid: 6179ef692eb3e554b8949dbcc2776621, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
