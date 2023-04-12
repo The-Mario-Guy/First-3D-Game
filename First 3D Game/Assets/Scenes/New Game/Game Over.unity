@@ -473,12 +473,12 @@ MonoBehaviour:
   PixelMaskBrightness: 2
   IQOffset: {x: 0, y: 0}
   IQScale: {x: 1, y: 1}
-  RFNoise: 0.09
+  RFNoise: 0.38
   LumaSharpen: 4
-  QuantizeRGB: 0
+  QuantizeRGB: 1
   RBits: 8
-  GBits: 8
-  BBits: 8
+  GBits: 3
+  BBits: 2
   EnableBurstCountAnimation: 1
   AntiFlicker: 0
   EnableRollingFlicker: 1
@@ -647,6 +647,7 @@ GameObject:
   - component: {fileID: 1716147865}
   - component: {fileID: 1716147864}
   - component: {fileID: 1716147863}
+  - component: {fileID: 1716147867}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -738,6 +739,26 @@ RectTransform:
   m_AnchoredPosition: {x: -10.526398, y: -18.824814}
   m_SizeDelta: {x: 581.00006, y: 508}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!95 &1716147867
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1716147862}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f7188fd9852d3f545a5d84e390da0ee2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1884012441
 GameObject:
   m_ObjectHideFlags: 0
@@ -930,7 +951,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Oh noes, you touchy grass :(
+  m_text: Oh noes, th3 gaym iz over :(
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9f557c39479461e4db49ced96899d5b7, type: 2}
   m_sharedMaterial: {fileID: 5149903798836004558, guid: 9f557c39479461e4db49ced96899d5b7, type: 2}
@@ -1159,7 +1180,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 211f8c019d8e11542a82bfe0da080c68, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d00ea20459d4eb7478d0460194b1eccc, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
