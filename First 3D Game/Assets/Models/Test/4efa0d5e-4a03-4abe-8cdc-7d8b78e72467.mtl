@@ -1,0 +1,16 @@
+#
+## Alias OBJ Material File
+# Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+
+newmtl Groundcover_Wood_Mix
+Ka 0.000000 0.000000 0.000000
+Kd 0.705882 0.290196 0.058824
+Ks 0.330000 0.330000 0.330000
+map_Kd 4efa0d5e-4a03-4abe-8cdc-7d8b78e72467/Groundcover_Wood_Mix.jpg
+
+newmtl Grass_Dark_Green
+Ka 0.000000 0.000000 0.000000
+Kd 0.007843 0.698039 0.078431
+Ks 0.330000 0.330000 0.330000
+map_Kd 4efa0d5e-4a03-4abe-8cdc-7d8b78e72467/Grass_Dark_Green.jpg
+

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerTWOControlls : MonoBehaviour
 {
-    public float _moveSpeed = 20;
+    public float _moveSpeed = 5;
      public int forceConst = 500;
      
     private Rigidbody selfRigidbody;
@@ -38,6 +38,16 @@ public class PlayerTWOControlls : MonoBehaviour
         float zValue = Input.GetAxis("Vertical") * _moveSpeed*Time.deltaTime;
 
         transform.Translate(xValue, 0f, zValue);
+        
+        if (Input.GetKey(KeyCode.LeftShift))
+    {
+        _moveSpeed = 20;
     }
+    else
+    {
+        _moveSpeed = 5;
+    }
+    }
+    
 }
 
